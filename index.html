@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2113.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+    span.s1 {font: 12.0px 'PingFang SC'}
+    span.s2 {font: 12.0px 'Apple Color Emoji'}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="zh-CN"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;UIUX<span class="s1">设计服务</span> | <span class="s1">智能硬件</span>HMI<span class="s1">与</span>B<span class="s1">端界面专家</span>&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width,initial-scale=1"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- <span class="s1">关键</span> SEO --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="keywords" content="UI<span class="s1">设计</span>,UX<span class="s1">设计</span>,<span class="s1">智能硬件</span>UI,HMI<span class="s1">交互设计</span>,B<span class="s1">端</span>UI<span class="s1">设计</span>,<span class="s1">智能产品设计</span>,UX<span class="s1">设计服务</span>,<span class="s1">网站</span>UI<span class="s1">设计</span>"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="description" content="<span class="s1">专注智能硬件与</span>B<span class="s1">端产品的</span>UI/UX<span class="s1">设计团队，提供</span>HMI<span class="s1">交互、网站</span>UI<span class="s1">、品牌界面等一站式设计服务。</span>"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* ========== <span class="s1">极简</span> reset ========== */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>*{margin:0;padding:0;box-sizing:border-box}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;background:#fff;color:#222;line-height:1.6}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>img{max-width:100%;display:block}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>a{text-decoration:none;color:inherit}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* ========== <span class="s1">动画</span> ========== */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>@keyframes fadeDown{from{opacity:0;transform:translateY(-30px)}to{opacity:1;transform:none}}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>@keyframes fadeUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:none}}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* ========== <span class="s1">导航</span> ========== */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>header{position:fixed;top:0;left:0;right:0;background:#fff;box-shadow:0 2px 4px rgba(0,0,0,.05);z-index:9}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>nav{display:flex;align-items:center;justify-content:space-between;max-width:1100px;margin:auto;padding:0 20px;height:60px}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>nav .logo{height:36px}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>nav ul{display:flex;gap:28px;list-style:none;font-size:15px}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>nav li{cursor:pointer;transition:.2s}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>nav li:hover{color:#1a7cff}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* ========== <span class="s1">首屏</span> ========== */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>#hero{height:100vh;background:url(assets/hero.jpg) center/cover no-repeat;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>#hero h1{font-size:48px;font-weight:600;margin-bottom:20px;animation:fadeDown 1s ease}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>#hero p{font-size:20px;animation:fadeUp 1s ease .2s both}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* ========== <span class="s1">区块通用</span> ========== */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>section{max-width:1100px;margin:80px auto;padding:0 20px}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>h2{font-size:32px;margin-bottom:40px;text-align:center}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.grid{display:grid;gap:30px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.card{background:#f7f9fc;border-radius:8px;overflow:hidden;transition:.3s}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.card:hover{transform:translateY(-6px);box-shadow:0 10px 20px rgba(0,0,0,.08)}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.card img{width:100%;height:180px;object-fit:cover}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.card .txt{padding:20px}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.card h3{font-size:18px;margin-bottom:10px}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* ========== <span class="s1">长图作品</span> ========== */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>#works img{width:100%;border-radius:8px;margin-bottom:30px}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* ========== <span class="s1">页脚</span> ========== */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>footer{text-align:center;padding:40px 0;font-size:14px;color:#999}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p1">&lt;header&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;nav&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;img src="assets/logo.png" class="logo" alt="logo"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;li data-to="hero"&gt;<span class="s1">首页</span>&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;li data-to="service"&gt;<span class="s1">服务</span>&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;li data-to="works"&gt;<span class="s1">作品</span>&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;li data-to="blog"&gt;<span class="s1">文章</span>&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;li data-to="contact"&gt;<span class="s1">联系</span>&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/nav&gt;</p>
+<p class="p1">&lt;/header&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section id="hero"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h1 id="heroTitle"&gt;<span class="s1">智能硬件</span>UI · HMI<span class="s1">设计专家</span>&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p id="heroDesc"&gt;<span class="s1">提供极致易用的</span>B<span class="s1">端与智能产品界面设计服务</span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section id="service"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;<span class="s1">核心服务</span>&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="grid" id="serviceGrid"&gt;&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section id="works"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;<span class="s1">精选作品</span>&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div id="worksBox"&gt;&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section id="blog"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;<span class="s1">设计思考</span>&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="grid" id="blogGrid"&gt;&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section id="contact"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;<span class="s1">联系我们</span>&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p style="text-align:center"&gt;<span class="s1">邮箱：</span>&lt;a href="mailto:hello@uiux.com"&gt;hello@uiux.com&lt;/a&gt; | <span class="s1">微信：</span>UIUXteam&lt;/p&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;footer&gt;© 2025 UIUX Design Team —— Built with <span class="s2">❤️</span> &amp; pure HTML&lt;/footer&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>/* ========== <span class="s1">单页导航</span> ========== */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>document.querySelectorAll('nav li').forEach(el=&gt;{</p>
+<p class="p1"><span class="Apple-converted-space">        </span>el.onclick = ()=&gt;{</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const tar = document.getElementById(el.dataset.to);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>tar &amp;&amp; tar.scrollIntoView({behavior:'smooth'})</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>/* ========== <span class="s1">读取数据并渲染</span> ========== */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>fetch('data.json').then(r=&gt;r.json()).then(renderAll);</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>function renderAll(D){</p>
+<p class="p1"><span class="Apple-converted-space">        </span>// <span class="s1">首屏</span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.getElementById('heroTitle').textContent = D.hero.title;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.getElementById('heroDesc').textContent = D.hero.desc;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// <span class="s1">服务</span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>const sg = document.getElementById('serviceGrid');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>D.services.forEach(o=&gt;{</p>
+<p class="p1"><span class="Apple-converted-space">            </span>sg.insertAdjacentHTML('beforeend',`</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="txt"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3&gt;${o.title}&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p&gt;${o.summary}&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;`);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// <span class="s1">作品</span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>const wb = document.getElementById('worksBox');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>D.works.forEach(o=&gt;{</p>
+<p class="p1"><span class="Apple-converted-space">            </span>wb.insertAdjacentHTML('beforeend',`&lt;img src="${o.img}" alt="${o.title}"&gt;`);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// <span class="s1">文章</span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>const bg = document.getElementById('blogGrid');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>D.posts.forEach(o=&gt;{</p>
+<p class="p1"><span class="Apple-converted-space">            </span>bg.insertAdjacentHTML('beforeend',`</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;img src="${o.img}" alt="${o.title}"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="txt"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3&gt;${o.title}&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p&gt;${o.summary}&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;`);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1">&lt;/script&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
